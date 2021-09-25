@@ -13,6 +13,8 @@
 		3A9F12B926FF5A1600AAE303 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F12A726FF5A1500AAE303 /* ContentView.swift */; };
 		3A9F12BA26FF5A1600AAE303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F12A826FF5A1600AAE303 /* Assets.xcassets */; };
 		3A9F12BB26FF5A1600AAE303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F12A826FF5A1600AAE303 /* Assets.xcassets */; };
+		3A9F12C526FF6B2100AAE303 /* Schallplatte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F12C426FF6B2100AAE303 /* Schallplatte.swift */; };
+		3A9F12C626FF6B2100AAE303 /* Schallplatte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F12C426FF6B2100AAE303 /* Schallplatte.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		3A9F12AD26FF5A1600AAE303 /* Schallplatte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schallplatte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9F12B326FF5A1600AAE303 /* Schallplatte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schallplatte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9F12B526FF5A1600AAE303 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3A9F12C426FF6B2100AAE303 /* Schallplatte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schallplatte.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 				3A9F12A626FF5A1500AAE303 /* SchallplatteApp.swift */,
 				3A9F12A726FF5A1500AAE303 /* ContentView.swift */,
 				3A9F12A826FF5A1600AAE303 /* Assets.xcassets */,
+				3A9F12C426FF6B2100AAE303 /* Schallplatte.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -178,6 +182,7 @@
 			files = (
 				3A9F12B826FF5A1600AAE303 /* ContentView.swift in Sources */,
 				3A9F12B626FF5A1600AAE303 /* SchallplatteApp.swift in Sources */,
+				3A9F12C526FF6B2100AAE303 /* Schallplatte.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +192,7 @@
 			files = (
 				3A9F12B926FF5A1600AAE303 /* ContentView.swift in Sources */,
 				3A9F12B726FF5A1600AAE303 /* SchallplatteApp.swift in Sources */,
+				3A9F12C626FF6B2100AAE303 /* Schallplatte.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +325,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,7 +355,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
