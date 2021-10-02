@@ -56,7 +56,7 @@ struct PausableRotation: GeometryEffect {
 struct Schallplatte: View {
     var vinylColor: Color
     var imgUrl: String
-    var gradationIntensity: ColorModificationIntensity
+    var gradationIntensity: ColorModificationIntensity // either .semistrong or .strong
     var showCenter: Bool
     var sections = 4
 
