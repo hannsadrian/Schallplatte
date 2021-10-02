@@ -11,7 +11,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Schallplatte()
+            Schallplatte(vinylColor: Color(red: 0.49, green: 0, blue: 0, opacity: 1), imgUrl: "https://images-na.ssl-images-amazon.com/images/I/71GtacY5FQL._SL1400_.jpg", gradationIntensity: .strong, showCenter: false)
         }
     }
 }
