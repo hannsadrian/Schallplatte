@@ -6,7 +6,7 @@ Is a SwiftUI experiment for rendering vinyl records. Below you can view an examp
 :------:|:------:
 | ![lightmode](./example-light.png) | ![darkmode](./example-dark.png) |
 
-Based on the `vinylColor`, other shades for a realistic appearance are automatically calculated. As a result, all colors should more or less automatically generate a nice record.
+Based on the `vinylColor`, other shades for a realistic appearance are automatically calculated. As a result, all colors should more or less generate a nice record.
 
 ```swift
 import SwiftUI
