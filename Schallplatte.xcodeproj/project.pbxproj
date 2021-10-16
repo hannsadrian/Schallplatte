@@ -20,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A401D7F271B2ED700D80244 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3A401D81271B2F4200D80244 /* example-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "example-light.png"; sourceTree = "<group>"; };
+		3A401D82271B2F6C00D80244 /* example-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "example-dark.png"; sourceTree = "<group>"; };
 		3A9F12A626FF5A1500AAE303 /* SchallplatteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchallplatteApp.swift; sourceTree = "<group>"; };
 		3A9F12A726FF5A1500AAE303 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A9F12A826FF5A1600AAE303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		3A9F12A026FF5A1500AAE303 = {
 			isa = PBXGroup;
 			children = (
+				3A401D81271B2F4200D80244 /* example-light.png */,
+				3A401D82271B2F6C00D80244 /* example-dark.png */,
+				3A401D7F271B2ED700D80244 /* README.md */,
 				3A9F12A526FF5A1500AAE303 /* Shared */,
 				3A9F12B426FF5A1600AAE303 /* macOS */,
 				3A9F12AE26FF5A1600AAE303 /* Products */,
